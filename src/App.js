@@ -1,3 +1,4 @@
+
 import {Switch, Route, useLocation} from 'react-router-dom';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -10,6 +11,7 @@ import PlaceDetails from './pages/PlaceDetails';
 import './App.css';
 
 function App() {
+
   const location = useLocation();
 
   return (
